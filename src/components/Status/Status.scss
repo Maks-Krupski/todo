@@ -1,0 +1,29 @@
+.todo__btn {
+  color: rgb(129, 129, 129);
+  border: 1px solid rgb(129, 129, 129);
+
+  &:hover {
+    color: #000;
+    background: rgb(129, 129, 129);
+  }
+}
+
+.inProgress__btn {
+  color: rgb(255, 225, 105);
+  border: 1px solid rgb(255, 225, 105);
+
+  &:hover {
+    color: #000;
+    background: rgb(255, 225, 105);
+  }
+}
+
+.complete__btn {
+  color: rgb(3, 170, 0);
+  border: 1px solid rgb(3, 170, 0);
+
+  &:hover {
+    color: #000;
+    background: rgb(3, 170, 0);
+  }
+}

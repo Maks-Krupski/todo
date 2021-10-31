@@ -1,0 +1,37 @@
+.App {
+  width: 1000px;
+  padding-bottom: 40px;
+}
+
+.App__header {
+  padding: 50px 0;
+}
+
+.header__title {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.main__list {
+  padding: 0;
+}
+
+.App__main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__btn {
+  align-self: flex-end;
+  margin-bottom: 20px;
+
+  &:hover {
+    color: #fff;
+    background: #000;
+  }
+}
+
+.header__text {
+  display: inline-block;
+  background: rgb(241, 228, 174);
+}
